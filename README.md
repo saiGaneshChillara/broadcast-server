@@ -4,6 +4,8 @@ A CLI-based real-time broadcast server built with **TypeScript** and **Clean Arc
 
 This project demonstrates how real-time systems like chat applications, multiplayer games, and live dashboards work internally using WebSockets.
 
+This project is built as solution for https://roadmap.sh/projects/broadcast-server
+
 ---
 
 ## 🚀 Features
