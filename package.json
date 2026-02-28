@@ -1,0 +1,26 @@
+{
+  "name": "broadcast-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "broadcast-server": "./dist/main.js"
+  },
+  "scripts": {
+    "dev": "ts-node-dev src/main.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "ws": "^8.19.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.2",
+    "@types/ws": "^8.18.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  }
+}
